@@ -1,0 +1,315 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    color: #183b56;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #183b56;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #183b56;
+}
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #577592;
+    font-size: 20px;
+}
+
+.padding {
+    padding: 20px 0px 0px 0px;
+    /* background-color: red; */
+}
+
+/* Main class start */
+
+/* topbar class start */
+
+.topbar {
+    height: 54px;
+    width: 100%;
+    background-image: url('assets/asset 30.png');
+    background-color: #4fb3d4;
+    background-size: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar-text {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* topbar class ends */
+
+/* navbar class start */
+
+.main-nav {
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-logo img {
+    height: 36px;
+    width: 200px;
+
+}
+
+.nav-item {
+    justify-content: space-between;
+
+}
+
+.nav-item ul {
+    justify-content: end;
+    gap: 70px;
+}
+
+/* navbar class ends */
+
+/* header section start */
+
+.header-right h1 {
+    color: #183b56;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-right p {
+    color: #577592;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-section img {
+    width: 100%;
+
+}
+
+/* header section end */
+
+/* company  section start */
+
+.compnay-section {
+
+    justify-content: center;
+    padding-top: 40px;
+    align-items: center;
+}
+
+.para {
+    color: #183b56;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.company-name {
+    height: 46px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+/* features-header start */
+
+.features-header {
+    background-image: url('assets/asset\ 32.svg');
+    padding: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cardsorting {
+    text-align: center;
+}
+
+/* features-header end */
+
+
+/* Design professionals section  start */
+
+.design-section {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.design-section img {
+    width: 100%;
+}
+
+
+.design-section-text {
+    display: flex;
+    display: block;
+
+}
+
+.possibilities-images {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    padding: 100px 0px 100px 30px;
+}
+
+
+.possibilities-images-1 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('assets/asset\ 35.jpeg');
+    background-size: cover;
+    margin-right: 30px;
+    opacity: 1;
+}
+
+.possibilities-images-2 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('assets/asset\ 36.jpeg');
+    background-size: cover;
+    margin-right: 30px;
+}
+
+.possibilities-images-3 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('assets/asset\ 37.jpeg');
+    background-size: cover;
+    margin-right: 30px;
+}
+
+.possibilities-images-4 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('assets/asset\ 34.jpeg');
+    background-size: cover;
+    margin-right: 30px;
+}
+
+.possibilities-images-text {
+    color: #ffffff;
+    position: relative;
+    top: 60%;
+    bottom: 0px;
+    opacity: 1.5;
+    left: 5px;
+
+}
+
+/* Design professionals section  end */
+
+/* Start testing today start */
+
+.start-testing {
+    height: 350px;
+    width: 100%;
+    background-color: #183b54;
+}
+
+.start-testing h3 {
+    background-color: #183b54;
+    color: white;
+    text-align: center;
+    padding: 120px 0px 40px 0px;
+}
+
+.start-testing-para {
+    background-color: #183b54;
+    color: white;
+    text-align: center;
+    padding: 8px 0px 50px 0px;
+}
+
+/* Start testing today start end */
+
+/* footer start */
+
+.footer
+{
+    height: 100%;
+    width: 100%;    
+    background-color: #ebf2fa;
+    padding: 80px 0px 40px 0px;
+    display: flex;
+}
+.footer-image img
+{
+    height: 6vh;
+    width: 15vw;   
+}
+
+.footer-link
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+/* footer */
+
+.footer-end
+{
+    height: 10vh;
+    width: 100%;
+    background-color: #b9cde4;
+    display: flex;  
+}
+
+
+.footer-end-icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.footer-end-icons .icons
+{
+    font-size: 20px;
+}
+
+/* footer-end */
